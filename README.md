@@ -29,17 +29,12 @@ A terminal-based video game console that supports multiple games (Tic Tac Toe, S
 
 A reflex-based game where the player dodges falling blocks using keyboard inputs.
 
-Written in src/avoid_blocks.c.
-
-
 **Snake:**
 
 
 A classic snake game where the snake grows longer by eating bait while avoiding collisions.
 
 Includes real-time movement and instant quit functionality.
-
-Written in src/snake.c.
 
 **Tic Tac Toe:**
 
@@ -49,8 +44,6 @@ A turn-based two-player game.
 Includes real-time keyboard input processing using read() for instant quit with q.
 
 Displays the final score and game result.
-
-Written in src/tic_tac_toe.c.
 
 
 **Main Menu:**
@@ -63,7 +56,6 @@ Features an "Exit" option.
 
 Gracefully returns to the main menu when a game is terminated.
 
-Written in src/mainscreen.c.
 
 **2. Shell Scripts**
 
