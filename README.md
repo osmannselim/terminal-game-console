@@ -93,26 +93,26 @@ Additionally deletes the disk image (storage_vgc.img).
 
 # How to Use
 
-1. Initialize the Environment
+**1. Initialize the Environment**
 
 Run initialize.sh to create and format the virtual disk:
 
 _sudo ./initialize.sh_
 
-2. Start the Console
+**2. Start the Console**
 
 Run startup.sh to mount the disk and prepare the environment:
 
 _sudo ./startup.sh_
 
-3. Launch the Main Menu
+**3. Launch the Main Menu**
 
 Compile and run mainscreen.c to start the game console:
 
 _gcc -o main_screen src/mainscreen.c
 ./main_screen_
 
-4. Select and Play a Game
+**4. Select and Play a Game**
 
 Use the following keys in the main menu:
 
@@ -124,13 +124,14 @@ Enter: Launch the selected game or exit the console.
 
 Each game runs independently and gracefully returns to the main menu upon termination.
 
-5. Terminate the Console
+**5. Terminate the Console**
  
 Run terminate.sh to unmount the disk and clean up the environment:
 
 _sudo ./terminate.sh_
 
-6. Purge the Environment
+**6. Purge the Environment**
+
 Run purge.sh to delete the disk image and all related resources:
 
 _sudo ./purge.sh_
