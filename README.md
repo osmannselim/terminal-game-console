@@ -23,7 +23,8 @@ A terminal-based video game console that supports multiple games (Tic Tac Toe, S
 
 
 # Features
-1. Games
+
+**1. Games**
 
 **Avoid Blocks:**
 
