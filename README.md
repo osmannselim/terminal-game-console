@@ -127,11 +127,17 @@ Real-time input handling ensures responsive gameplay.
 # Requirements
 
 Compiler: GCC or any standard C compiler.
+
 Shell: Bash shell for executing the scripts.
+
 Permissions: Root privileges for mounting, unmounting, and handling loop devices.
-Known Limitations
+
+# Known Limitations
+
 Games are terminal-based and require resizing if played on smaller terminals.
+
 Disk image is limited to 100MB; adjustments may be required for larger applications.
+
 
 Enjoy playing! 🎮
 
