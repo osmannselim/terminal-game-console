@@ -105,22 +105,23 @@ Additionally deletes the disk image (storage_vgc.img).
 
 Run initialize.sh to create and format the virtual disk:
 
-**sudo ./initialize.sh**
+_sudo ./initialize.sh_
 
 2. Start the Console
 
 Run startup.sh to mount the disk and prepare the environment:
 
-**sudo ./startup.sh**
+_sudo ./startup.sh_
 
 3. Launch the Main Menu
 
 Compile and run mainscreen.c to start the game console:
 
-**gcc -o main_screen src/mainscreen.c
-./main_screen**
+_gcc -o main_screen src/mainscreen.c
+./main_screen_
 
 4. Select and Play a Game
+
 Use the following keys in the main menu:
 
 w / s: Navigate between games.
@@ -131,16 +132,16 @@ Enter: Launch the selected game or exit the console.
 
 Each game runs independently and gracefully returns to the main menu upon termination.
 
-6. Terminate the Console
-7. 
+5. Terminate the Console
+ 
 Run terminate.sh to unmount the disk and clean up the environment:
 
-**sudo ./terminate.sh**
+_sudo ./terminate.sh_
 
 6. Purge the Environment
 Run purge.sh to delete the disk image and all related resources:
 
-**sudo ./purge.sh**
+_sudo ./purge.sh_
 
 # Testing and Validation
 
@@ -150,7 +151,7 @@ All games exit gracefully on SIGINT
 
 The main menu survives SIGINT and SIGTSTP signals during operation.
 
-Script Functionality:
+**Script Functionality:**
 
 startup.sh works after terminate.sh without requiring initialize.sh.
 
