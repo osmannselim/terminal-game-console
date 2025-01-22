@@ -5,21 +5,21 @@ A terminal-based video game console that supports multiple games (Tic Tac Toe, S
 
 ├── src
 
-   ├── avoid_blocks.c                    # Avoid Blocks game source code
+   ├── avoid_blocks.c
    
-   ├── mainscreen.c                      # Main menu for game selection
+   ├── mainscreen.c
    
-   ├── snake.c                           # Snake game source code
+   ├── snake.c
    
-   ├── tic_tac_toe.c                     # Tic Tac Toe game source code
+   ├── tic_tac_toe.c
    
-├── initialize.sh                        # Script to create and initialize the virtual disk
+├── initialize.sh
 
-├── purge.sh                             # Script to clean up all resources, including the disk image
+├── purge.sh
 
-├── startup.sh                           # Script to mount and prepare the virtual disk
+├── startup.sh
 
-├── terminate.sh                         # Script to unmount and detach the virtual disk
+├── terminate.sh
 
 
 # Features
