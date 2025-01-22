@@ -57,6 +57,23 @@ Features an "Exit" option.
 
 Gracefully returns to the main menu when a game is terminated.
 
+**Signal Handling**
+
+
+- Main Menu:
+
+Handles SIGINT (Ctrl+C) and SIGTERM gracefully.
+
+If a game is running, the signal kills the game process and returns to the main menu.
+
+If no game is running, the signal terminates the main menu after cleaning up the terminal state.
+
+- Games:
+
+Each game handles SIGINT to terminate immediately and return control to the main menu.
+
+The q key provides instant termination during gameplay.
+
 
 **2. Shell Scripts**
 
