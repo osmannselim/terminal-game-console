@@ -5,13 +5,13 @@ A terminal-based video game console that supports multiple games (Tic Tac Toe, S
 
 ├── src
 
-   ├── avoid_blocks.c
+   ├├── avoid_blocks.c
    
-   ├── mainscreen.c
+   ├├── mainscreen.c
    
-   ├── snake.c
+   ├├── snake.c
    
-   ├── tic_tac_toe.c
+   ├├── tic_tac_toe.c
    
 ├── initialize.sh
 
